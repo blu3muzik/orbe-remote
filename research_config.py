@@ -9,7 +9,7 @@ Purpose: 3-way merge conflict demonstration
 """
 
 PROJECT_NAME    = "orbe-research"
-DNS_PRIAMRY     = "8.8.8.8"         #Primary DNS server
+DNS_PRIMARY     = "8.8.8.8"         #Primary DNS server
 DNS_SECONDARY   = "8.8.4.4"         # Secondary DNS server
 MAX_THREADS     = 4                 # Worker thread count
 LOG_LEVEL       = "WARNING"         # Logging verbosity
