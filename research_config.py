@@ -9,10 +9,10 @@ Purpose: 3-way merge conflict demonstration
 """
 
 PROJECT_NAME    = "orbe-research"
-DNS_PRIMARY     = "8.8.8.8"         #Primary DNS server
-DNS_SECONDARY   = "8.8.4.4"         # Secondary DNS server
-MAX_THREADS     = 4                 # Worker thread count
-LOG_LEVEL       = "WARNING"         # Logging verbosity
+DNS_PRIMARY     = "1.1.1.1"         #Primary DNS server
+DNS_SECONDARY   = "1.0.0.1"         # Secondary DNS server
+MAX_THREADS     = 8                 # Worker thread count
+LOG_LEVEL       = "DEBUG"         # Logging verbosity
 TIMEOUT_SEC     = 30                # Connection timeout
 RETRY_COUNT     = 3                 # Max retry attempts
 ADMIN_USER      = "admin"           # Default admin account
